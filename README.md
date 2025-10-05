@@ -1,13 +1,13 @@
 # IAV_FiniteStatesMachine
 
-![project_iav_finitestatesmachine.gif](../../../Videos/Portfolio/project_iav_finitestatesmachine.gif)
-
 A basic project to learn about AI and states machines. This project features a robot that is always patrolling. If the 
 robot make visual contact with the player its state will change from "Patrol" to "Chase" and when it is close enough to
 the player it will start attacking. If the robot health is reduced to a certain point it will try to hide behind a block
 to start healing.
 
-![img.png](img.png)
+![project_iav_finitestatesmachine](https://github.com/user-attachments/assets/ea833066-a25c-4fcc-ac17-7e96a425852b)
+
+<img width="1377" height="726" alt="Captura de pantalla 2025-10-05 162032" src="https://github.com/user-attachments/assets/f27da6db-d5c0-4560-8277-68d2878880ec" />
 
 The robot has the `RobotAI` script attached to it with the logic to fire the player or to know if it is making
 visual contact with the player.
@@ -91,4 +91,4 @@ public class Attack : NPCBaseFSM
 }
 ```
 
-![img_1.png](img_1.png)
+<img width="1106" height="909" alt="Captura de pantalla 2025-10-05 162858" src="https://github.com/user-attachments/assets/f6c9d080-73de-4078-8efe-43a90065a418" />
